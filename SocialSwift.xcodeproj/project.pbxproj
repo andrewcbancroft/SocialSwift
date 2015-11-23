@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D3FC831C038C4600F64027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D3FC821C038C4600F64027 /* AppDelegate.swift */; };
+		C3D3FC851C038C4600F64027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D3FC841C038C4600F64027 /* ViewController.swift */; };
+		C3D3FC881C038C4600F64027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D3FC861C038C4600F64027 /* Main.storyboard */; };
+		C3D3FC8A1C038C4600F64027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D3FC891C038C4600F64027 /* Assets.xcassets */; };
+		C3D3FC8D1C038C4600F64027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D3FC8B1C038C4600F64027 /* LaunchScreen.storyboard */; };
+		C3D3FC981C038C4600F64027 /* SocialSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D3FC971C038C4600F64027 /* SocialSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3D3FC941C038C4600F64027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D3FC771C038C4600F64027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D3FC7E1C038C4600F64027;
+			remoteInfo = SocialSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3D3FC7F1C038C4600F64027 /* SocialSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D3FC821C038C4600F64027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3D3FC841C038C4600F64027 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3D3FC871C038C4600F64027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3D3FC891C038C4600F64027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3D3FC8C1C038C4600F64027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3D3FC8E1C038C4600F64027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D3FC931C038C4600F64027 /* SocialSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D3FC971C038C4600F64027 /* SocialSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSwiftTests.swift; sourceTree = "<group>"; };
+		C3D3FC991C038C4600F64027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D3FC7C1C038C4600F64027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D3FC901C038C4600F64027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D3FC761C038C4600F64027 = {
+			isa = PBXGroup;
+			children = (
+				C3D3FC811C038C4600F64027 /* SocialSwift */,
+				C3D3FC961C038C4600F64027 /* SocialSwiftTests */,
+				C3D3FC801C038C4600F64027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D3FC801C038C4600F64027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D3FC7F1C038C4600F64027 /* SocialSwift.app */,
+				C3D3FC931C038C4600F64027 /* SocialSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D3FC811C038C4600F64027 /* SocialSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C3D3FC821C038C4600F64027 /* AppDelegate.swift */,
+				C3D3FC841C038C4600F64027 /* ViewController.swift */,
+				C3D3FC861C038C4600F64027 /* Main.storyboard */,
+				C3D3FC891C038C4600F64027 /* Assets.xcassets */,
+				C3D3FC8B1C038C4600F64027 /* LaunchScreen.storyboard */,
+				C3D3FC8E1C038C4600F64027 /* Info.plist */,
+			);
+			path = SocialSwift;
+			sourceTree = "<group>";
+		};
+		C3D3FC961C038C4600F64027 /* SocialSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D3FC971C038C4600F64027 /* SocialSwiftTests.swift */,
+				C3D3FC991C038C4600F64027 /* Info.plist */,
+			);
+			path = SocialSwiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D3FC7E1C038C4600F64027 /* SocialSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D3FC9C1C038C4600F64027 /* Build configuration list for PBXNativeTarget "SocialSwift" */;
+			buildPhases = (
+				C3D3FC7B1C038C4600F64027 /* Sources */,
+				C3D3FC7C1C038C4600F64027 /* Frameworks */,
+				C3D3FC7D1C038C4600F64027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialSwift;
+			productName = SocialSwift;
+			productReference = C3D3FC7F1C038C4600F64027 /* SocialSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3D3FC921C038C4600F64027 /* SocialSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D3FC9F1C038C4600F64027 /* Build configuration list for PBXNativeTarget "SocialSwiftTests" */;
+			buildPhases = (
+				C3D3FC8F1C038C4600F64027 /* Sources */,
+				C3D3FC901C038C4600F64027 /* Frameworks */,
+				C3D3FC911C038C4600F64027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D3FC951C038C4600F64027 /* PBXTargetDependency */,
+			);
+			name = SocialSwiftTests;
+			productName = SocialSwiftTests;
+			productReference = C3D3FC931C038C4600F64027 /* SocialSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D3FC771C038C4600F64027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Andrew Bancroft";
+				TargetAttributes = {
+					C3D3FC7E1C038C4600F64027 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C3D3FC921C038C4600F64027 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C3D3FC7E1C038C4600F64027;
+					};
+				};
+			};
+			buildConfigurationList = C3D3FC7A1C038C4600F64027 /* Build configuration list for PBXProject "SocialSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3D3FC761C038C4600F64027;
+			productRefGroup = C3D3FC801C038C4600F64027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D3FC7E1C038C4600F64027 /* SocialSwift */,
+				C3D3FC921C038C4600F64027 /* SocialSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D3FC7D1C038C4600F64027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D3FC8D1C038C4600F64027 /* LaunchScreen.storyboard in Resources */,
+				C3D3FC8A1C038C4600F64027 /* Assets.xcassets in Resources */,
+				C3D3FC881C038C4600F64027 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D3FC911C038C4600F64027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D3FC7B1C038C4600F64027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D3FC851C038C4600F64027 /* ViewController.swift in Sources */,
+				C3D3FC831C038C4600F64027 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D3FC8F1C038C4600F64027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D3FC981C038C4600F64027 /* SocialSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D3FC951C038C4600F64027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D3FC7E1C038C4600F64027 /* SocialSwift */;
+			targetProxy = C3D3FC941C038C4600F64027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3D3FC861C038C4600F64027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D3FC871C038C4600F64027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3D3FC8B1C038C4600F64027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D3FC8C1C038C4600F64027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3D3FC9A1C038C4600F64027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3D3FC9B1C038C4600F64027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D3FC9D1C038C4600F64027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcbancroft.SocialSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3D3FC9E1C038C4600F64027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcbancroft.SocialSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3D3FCA01C038C4600F64027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcbancroft.SocialSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialSwift.app/SocialSwift";
+			};
+			name = Debug;
+		};
+		C3D3FCA11C038C4600F64027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcbancroft.SocialSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialSwift.app/SocialSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D3FC7A1C038C4600F64027 /* Build configuration list for PBXProject "SocialSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D3FC9A1C038C4600F64027 /* Debug */,
+				C3D3FC9B1C038C4600F64027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D3FC9C1C038C4600F64027 /* Build configuration list for PBXNativeTarget "SocialSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D3FC9D1C038C4600F64027 /* Debug */,
+				C3D3FC9E1C038C4600F64027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3D3FC9F1C038C4600F64027 /* Build configuration list for PBXNativeTarget "SocialSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D3FCA01C038C4600F64027 /* Debug */,
+				C3D3FCA11C038C4600F64027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D3FC771C038C4600F64027 /* Project object */;
+}
